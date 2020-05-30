@@ -687,3 +687,9 @@ CI/CD
         >  git commit -m "add test script"
         >  git pull origin master
         >  git push origin master
+
+        edit auth/index.ts      (add a console log)
+        >  git checkout -b dev     (create a new branch)
+        >  git add .
+        >  git commit -m "added startup message"
+        >  git push origin dev

@@ -670,3 +670,18 @@ CI/CD
     Initialization
         we will create a single repository for the whole project
         >  git init
+        >  git add .
+        >  git commit -m "initial commit"
+        create a new repository 'ticketing' on github
+        >  git remote add origin https://github.com/PS-07/ticketing.git
+        >  git push origin master
+        go to Action > Set up workflow on github and rename the file as tests.yml
+        ticketing/.github/workflows/tests.yml (write the script)
+        edit auth/package.json: 
+            "scripts": {
+                ---
+                "test:ci": "jest"
+            },
+        >  git status       (to see changed files)
+        >  git add .
+        >  git commit -m "add test script"

@@ -685,3 +685,4 @@ CI/CD
         >  git status       (to see changed files)
         >  git add .
         >  git commit -m "add test script"
+        >  git push origin master

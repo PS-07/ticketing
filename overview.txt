@@ -697,3 +697,4 @@ CI/CD
         on github, go to Pull Request > New pull request
         merge dev -> master  and create a pull request
         the test script tests.yml will run
+        if successful, then Merge pull request

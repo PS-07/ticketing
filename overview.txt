@@ -693,3 +693,7 @@ CI/CD
         >  git add .
         >  git commit -m "added startup message"
         >  git push origin dev
+
+        on github, go to Pull Request > New pull request
+        merge dev -> master  and create a pull request
+        the test script tests.yml will run
